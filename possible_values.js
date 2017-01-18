@@ -1,4 +1,7 @@
-// javascript with jQuery
+// Question:
+// Given the following pseudo code, determine the range of possible values for “a”.
+// language of choice = javascript with jQuery
+
 a = []
 for (var i=1; i<=6; i++) {
 	for (var j=1; j<=6; j++) {
