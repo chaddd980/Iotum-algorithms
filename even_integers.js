@@ -10,4 +10,23 @@ function even_integer(num) {
   }
   return count
 }
-even_integer(10)
+
+
+function test(integer, expected) {
+  results.total++;
+  var result = even_integer(integer);
+  if (result !== expected) {
+    results.bad++;
+    console.log("expected " + expected + ", but was " + result)
+  }
+}
+var results = {
+  total: 0,
+  bad: 0
+}
+
+test(10, 5);
+test(2, 1);
+test(17, 8);
+console.log("Of " + results.total + " tests " + results.bad + " failed, "
++ (results.total - results.bad) + " passed.")
