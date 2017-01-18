@@ -17,7 +17,7 @@ function test(integer, expected) {
   var result = even_integer(integer);
   if (result !== expected) {
     results.bad++;
-    console.log("expected " + expected + ", but was " + result)
+    console.log("For even_integer(" + integer + "\), expected " + expected + ", but was " + result)
   }
 }
 var results = {
