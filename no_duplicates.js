@@ -8,4 +8,4 @@ function removeDuplicate(array) {
     return arr.indexOf(el) === i;
   });
 }
-removeDuplicate(['one', 'one', 'two', 'three', 'three', 'two'])
+console.log(removeDuplicate(['one', 'one', 'two', 'three', 'three', 'two']))
