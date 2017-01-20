@@ -18,3 +18,5 @@ $("document").ready(function(){
 	var rangeOfValues = jQuery.unique(a).join(", ");
   $("#values").append(rangeOfValues)
 })
+
+// used jQuery to reduce array to unique elements only, go to chaddd980.github.io/Iotum-algorithms to see the output
