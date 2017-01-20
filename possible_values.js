@@ -1,6 +1,11 @@
 // Question:
 // Given the following pseudo code, determine the range of possible values for “a”.
+// x = random_int(1,6)
+// y = random_int(1,6)
+// z = random_int(1,6)
+// a = x + y + z
 // language of choice = javascript with jQuery
+
 $("document").ready(function(){
 	a = []
 	for (var i=1; i<=6; i++) {
